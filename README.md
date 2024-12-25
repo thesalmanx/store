@@ -1,18 +1,4 @@
-# Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL, 2023
-
-![Copy of Copy of Fullstack Twitter Clone (1)](https://github.com/AntonioErdeljac/next13-ecommerce-admin/assets/23248726/088760cb-837d-44b7-a959-63089385d0a0)
-
-
-For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
-
-This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL
-
-## MAKE SURE YOU HAVE [ADMIN](https://github.com/AntonioErdeljac/next13-ecommerce-admin/tree/master) SETUP FIRST!
-
-[VIDEO TUTORIAL](https://youtu.be/5miHyP6lExg)
-
 Key Features:
-
 - We will be using Shadcn UI for the Admin!
 - Our admin dashboard is going to serve as both CMS, Admin and API!
 - You will be able to control mulitple vendors / stores through this single CMS! (For example you can have a "Shoe store" and a "Laptop store" and a "Suit store", and our CMS will generate API routes for all of those individually!)
@@ -31,40 +17,9 @@ Key Features:
 - Stripe webhooks
 - MySQL + Prisma + PlanetScale
 
-### Prerequisites
-
-**Node version 14.x**
-
-### Cloning the repository
-
-```shell
-git clone https://github.com/AntonioErdeljac/next13-ecommerce-store.git
-```
-
-### Install packages
-
-```shell
-npm i
-```
-
 ### Setup .env file
 
 
 ```js
 NEXT_PUBLIC_API_URL=
 ```
-
-
-### Start the app
-
-```shell
-npm run dev
-```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
